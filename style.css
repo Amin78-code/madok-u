@@ -53,6 +53,7 @@ header.active nav {
 }
 .nav-div {
   float: right;
+  
 }
 .nav-div ul li {
   font-family: "Montserrat", sans-serif;
@@ -353,3 +354,69 @@ iframe {
     width: 100%;
   }
 }
+@media (max-width: 1075px) {
+  .nav-div{
+    position: absolute;
+    margin-left: 107px;
+
+  }
+  .nav-div ul li {
+    padding-left: 5px ;
+
+  }
+
+}
+@media (max-width: 760px) {
+  .banner-content-div-h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    
+    
+
+  }
+
+
+}
+
+@media (max-width: 552px) {
+  .banner-content-div-h1 {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  line-height: 24px !important;
+  }
+  .num-heading {
+    font-size: 17px !important;
+  }
+  .banner-content-div-p {
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+  }
+}
+@media (max-width: 470px) {
+  .banner-content-div-p {
+    font-size: 12px !important;
+  }
+  banner-content-div-button{
+    padding-bottom: 25px
+  }
+}
+@media (max-width: 417px) {
+  .banner-content-div {
+    padding-top: 10px !important;
+  }
+  .banner-content-div-h1 {
+    font-size: 16px !important;
+    line-height: 16px !important;
+  }
+  .banner-content-div-p {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    
+  }
+  
+  banner-content-div-button {
+    line-height: 5px !important;
+
+  }
+}
+
